@@ -1,0 +1,24 @@
+﻿<Window x:Class="Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="The Rover" Height="588" Width="844" MaxWidth="844" ResizeMode="CanMinimize" Name="Window1">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Stretch">
+      
+        <Button Height="26" HorizontalAlignment="Left" Margin="142,213,0,0" Name="btnStop" Background="BurlyWood" VerticalAlignment="Top" Width="78">Stop</Button>
+        <Button Height="24" HorizontalAlignment="Left" Margin="144,180,0,0" Name="btnForward" Background="BurlyWood" VerticalAlignment="Top" Width="76">Forward</Button>
+        <Button HorizontalAlignment="Left" Margin="144,247,0,0" Name="btnReverse" Background="BurlyWood"  Width="76" Height="27" VerticalAlignment="Top">Reverse</Button>
+        <Button Height="26" HorizontalAlignment="Left" Margin="68,215,0,0" Name="btnLeft" Background="BurlyWood" VerticalAlignment="Top" Width="69">Left</Button>
+        <Button Height="26" Margin="227,215,0,0" Name="btnRight" Background="BurlyWood" VerticalAlignment="Top" HorizontalAlignment="Left" Width="67">Right</Button>
+        
+        <Rectangle Height="55" Margin="0,26,0,0" Name="Rectangle1" Stroke="Black" Fill="Beige" VerticalAlignment="Top" />
+        <Label Height="38" Margin="360,34,322,0" Name="Label1" VerticalAlignment="Top" FontSize="24" FontWeight="Bold">The Rover</Label>
+        <Rectangle HorizontalAlignment="Left" Margin="32,129,0,246" Name="Rectangle2" Stroke="Brown" Width="310" MaxHeight="175" MaxWidth="310" />
+        <Label Height="28" HorizontalAlignment="Left" Margin="128,138,0,0" Name="Label2" VerticalAlignment="Top" Width="120">Motion Controllers</Label>
+        <Label Height="28" Margin="366,96,196,0" Name="Label3" VerticalAlignment="Top">Try some sample command execution.</Label>
+        <Label Height="28" Margin="366,138,213,0" Name="Label4" VerticalAlignment="Top">IF : (Used to test for specific Conditions)</Label>
+        <CheckBox Height="16" HorizontalAlignment="Right" Margin="0,178,234,0" Name="CheckBox1" VerticalAlignment="Top" Width="166">Time equal (==) to 8s</CheckBox>
+        <Label Height="28" Margin="366,211,278,0" Name="Label5" VerticalAlignment="Top">Then: (Do the Following...)</Label>
+        <Label Height="27" HorizontalAlignment="Right" Margin="0,247,155,0" Visibility="Hidden" Name="Label6"  VerticalAlignment="Top" Width="246">Keep turning until 8s time line is reached.</Label>
+        <Button Height="23" Margin="366,0,364,233" Name="Button1" VerticalAlignment="Bottom">Test this...</Button>
+    </Grid>
+</Window>

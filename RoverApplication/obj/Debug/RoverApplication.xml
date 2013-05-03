@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+RoverApplication
+</name>
+</assembly>
+<members>
+<member name="M:RoverApplication.Window1.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="T:RoverApplication.Window1">
+	<summary>
+Window1
+</summary>
+</member><member name="M:RoverApplication.Application.InitializeComponent">
+	<summary>
+InitializeComponent
+</summary>
+</member><member name="M:RoverApplication.Application.Main">
+	<summary>
+Application Entry Point.
+</summary>
+</member><member name="T:RoverApplication.Application">
+	<summary>
+Application
+</summary>
+</member><member name="M:RoverApplication.connection.HttpGet(System.String,System.String,System.String)">
+	<summary>
+ Executes an authenticated HTTP GET command, sending userName/password as a NetworkCredential.
+ </summary>
+	<param name="uri">The URI to perform the GET operation</param>
+	<param name="username">The username to use with the request</param>
+	<param name="password">The password to use with the request</param>
+	<returns>The response of the request, null if exception thrown.</returns>
+</member><member name="P:RoverApplication.My.MyWpfExtension.Application">
+	<summary>
+ Returns the application object for the running application
+ </summary>
+</member><member name="P:RoverApplication.My.MyWpfExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:RoverApplication.My.MyWpfExtension.User">
+	<summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member><member name="P:RoverApplication.My.MyWpfExtension.Log">
+	<summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member><member name="P:RoverApplication.My.MyWpfExtension.Windows">
+	<summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member><member name="T:RoverApplication.My.MyWpfExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

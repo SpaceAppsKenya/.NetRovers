@@ -1,0 +1,14 @@
+E:\TheRover\RoverApplication\bin\Debug\RoverApplication.exe
+E:\TheRover\RoverApplication\bin\Debug\RoverApplication.pdb
+E:\TheRover\RoverApplication\bin\Debug\RoverApplication.xml
+E:\TheRover\RoverApplication\obj\Debug\ResolveAssemblyReference.cache
+E:\TheRover\RoverApplication\obj\Debug\Window1.baml
+E:\TheRover\RoverApplication\obj\Debug\Window1.g.vb
+E:\TheRover\RoverApplication\obj\Debug\Application.g.vb
+E:\TheRover\RoverApplication\obj\Debug\RoverApplication_MarkupCompile.cache
+E:\TheRover\RoverApplication\obj\Debug\RoverApplication.g.resources
+E:\TheRover\RoverApplication\obj\Debug\RoverApplication.Resources.resources
+E:\TheRover\RoverApplication\obj\Debug\RoverApplication.vbproj.GenerateResource.Cache
+E:\TheRover\RoverApplication\obj\Debug\RoverApplication.exe
+E:\TheRover\RoverApplication\obj\Debug\RoverApplication.xml
+E:\TheRover\RoverApplication\obj\Debug\RoverApplication.pdb
